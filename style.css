@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.container {
+    position: relative;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    z-index: 1;
+    position: sticky;
+
+}
+
+li {
+    list-style: none;
+    color: #ffffff;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    transition: color 2s;
+
+}
+li:hover{
+    color: #e07232;
+}
+
+li:first-child {
+    position: relative;
+    left: -300px;
+    margin: 0px;
+    padding: 0px;
+}
+
+li:last-child {
+    position: relative;
+    left: 300px;
+}
+.section1{
+    height: 700px;
+}
+
+.text {
+    height: auto;
+    width: auto;
+    position: relative;
+    top: -470px;
+    left: 66px;
+}
+
+.text p {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.text button {
+    height: 60px;
+    width: 283px;
+    color: #ffffff;
+    background-color: #FF630A;
+    border: none;
+    
+    font-size: 20px;
+    margin-top: 48px;
+}
+
+.bg>img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: -50px;
+    overflow: hidden;
+
+}
+
+h2 {
+    position: relative;
+    color: #ffffff;
+    font-size: 102px;
+    font-family: 'Oswald', sans-serif;
+}
+/*section 2 css start*/
+.section2{
+    position: relative;
+    top: -383px;
+    height: 970px;
+    width: 100%;
+    background-color: #FF630A;
+}
+.text2{
+    text-align: center;
+    
+}
+.section2 .text2 > h1{
+    font-size: 60px;
+    color: #ffffff;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    padding-top: 50px;
+
+    
+    }
+    
+    .section2 .text2 p{
+        font-size: 25px;
+        color: #ffffff;
+        width: 60%;
+        margin: auto;
+        padding: 20px;
+
+    }
+    .section2 .card1{
+        width: 20%;
+        height: auto;
+        background-color: #303030;
+        margin: 50px;
+
+    }
+    .section2 .card1 img{
+        width: 100%;
+        height: auto;
+    }
+    .section2 .card1 p{
+        color: #ffffff;
+        font-size: 14px;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+
+    }
+    .section2 .card1 h2{
+        font-size: 20px;
+        text-align: center;
+        margin: 20px;
+    }
+    .section2 .card{
+        display: flex;
+        justify-content: space-around;
+    }
+
